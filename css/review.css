@@ -1,0 +1,70 @@
+.review-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+}
+.review-item {
+  width: 298px;
+  display: flex;
+  flex-direction: column;
+}
+.review-text {
+  position: relative;
+}
+.review-text::after {
+  content: "";
+  position: absolute;
+  left: 45px;
+  bottom: -10px;
+  border: 20px solid transparent;
+  border-top: 20px solid #e2e2e2;
+}
+.review-text p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  padding: 9px 22px 6px 23px;
+  margin-bottom: 22px;
+  background: #e2e2e2;
+  border-radius: 7px;
+}
+.review-photo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.photo {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.review-initials {
+  display: flex;
+  flex-direction: column;
+}
+.name {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+
+  color: #333333;
+}
+.position {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: right;
+
+  color: #86878b;
+}
