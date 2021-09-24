@@ -1,6 +1,6 @@
 @import url(./header.css);
 @import url(./awesome.css);
-@import url();
+@import url(./pricing.css);
 
 html {
   font-family: "Open Sans", sans-serif;
@@ -16,6 +16,12 @@ html {
 .awesome {
   background-color: white;
   max-width: 1170;
-  padding: 0 15px;
-  margin: 50px auto 116px;
+  padding: 100px 15px 116px;
+  margin: auto;
+}
+.pricing {
+  background-color: #f5f5f5;
+  max-width: 1170;
+  padding: 80px 15px 74px;
+  margin: auto;
 }

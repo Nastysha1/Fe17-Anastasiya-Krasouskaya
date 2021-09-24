@@ -1,11 +1,11 @@
-.wrapper {
+.awesome-wrapper {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
   margin: auto;
 }
-.item {
+.awesome-item {
   width: 350px;
   height: 225px;
 }
