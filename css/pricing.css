@@ -1,6 +1,8 @@
 .pricing-wrapper {
+  width: 100%;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-around;
   margin: 63px -15px 0;
 }

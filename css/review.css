@@ -1,12 +1,14 @@
 .review-wrapper {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
   margin: auto;
 }
 .review-item {
   width: 298px;
+  margin: 0 26px 0;
   display: flex;
   flex-direction: column;
 }
