@@ -7,7 +7,6 @@
   color: #212121;
 
   text-transform: uppercase;
-  margin: 20px auto 34px;
 }
 .title::after {
   content: "";
