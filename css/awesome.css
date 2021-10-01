@@ -6,11 +6,19 @@
   flex-flow: row wrap;
   justify-content: space-around;
   align-items: center;
-  margin: auto;
+  margin: 0 -15px;
 }
 .awesome-item {
+  cursor: pointer;
+  margin: 0 15px;
   width: 350px;
   height: 225px;
+  box-shadow: 10px 10px 10px 1px grey;
+  border-radius: 5%;
+}
+.awesome-item:hover {
+  transform: translateY(-10%);
+  transition-duration: 1s;
 }
 
 .img {
@@ -40,4 +48,28 @@
   line-height: 19px;
   text-align: center;
   color: #000000;
+}
+.fa-lightbulb {
+  color: orange;
+  font-size: 30px;
+}
+.fa-lightbulb:hover {
+  transform: rotate(360deg);
+  transition-duration: 1s;
+}
+.fa-keyboard {
+  color: orange;
+  font-size: 30px;
+}
+.fa-keyboard:hover {
+  transform: rotate(360deg);
+  transition-duration: 1s;
+}
+.fa-bolt {
+  color: orange;
+  font-size: 30px;
+}
+.fa-bolt:hover {
+  transform: rotate(360deg);
+  transition-duration: 1s;
 }

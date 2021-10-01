@@ -19,6 +19,14 @@
 }
 .review-text {
   position: relative;
+  box-shadow: 10px 10px 10px 1px grey;
+  border-radius: 5%;
+  background: #e2e2e2;
+  border-radius: 7px;
+}
+.review-text:hover {
+  background-color: orange;
+  transform: rotate(1deg);
 }
 .review-text::after {
   content: "";
@@ -32,6 +40,10 @@
   top: 100%;
   left: 39px;
 }
+.review-text:hover:after {
+  background-color: orange;
+  transform: rotate(1deg);
+}
 .review-text p {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
@@ -41,9 +53,6 @@
   text-align: center;
   align-items: center;
   padding: 9px 22px 6px 23px;
-
-  background: #e2e2e2;
-  border-radius: 7px;
 }
 .review-photo {
   width: 100%;

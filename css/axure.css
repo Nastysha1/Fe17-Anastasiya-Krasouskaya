@@ -1,17 +1,17 @@
 .axure {
-  width: 100%;
-  background-repeat: no-repeat;
+  position: relative;
+  padding: 57px 0 38px 0;
   background-image: url("../bg/background1.jpg");
-  background-attachment: fixed;
-  position: absolute;
   background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
 }
+
 .axure .container {
   position: relative;
   z-index: 2;
-  padding: 58px 0 38px 0;
 }
+
 .axure::after {
   content: "";
   position: absolute;
@@ -20,51 +20,50 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.55);
+  background: rgba(0, 0, 0, 0.55);
 }
 
-.title-axure {
+.axure-title {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
   font-size: 36px;
   line-height: 42px;
   text-align: center;
-  color: #ffffff;
-
   text-transform: uppercase;
+  color: #ffffff;
 }
-.title-axure::after {
+
+.axure-title::after {
   content: "";
+  display: block;
   width: 64px;
   height: 1px;
   background-color: white;
   display: block;
   margin: 34px auto 34px;
 }
-.description-axure {
+
+.axure-desc {
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
   font-size: 16px;
   line-height: 19px;
   text-align: center;
   color: rgba(255, 255, 255, 0.8);
-
   margin: 0 auto 57px;
 }
-.axure-download {
+.axure__download {
   border: 1px solid white;
   width: 135px;
   padding: 11px 0;
   margin: 0 auto;
   cursor: pointer;
+  text-align: center;
 }
 .axure-link {
+  width: 100%;
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
   font-size: 15px;
-  line-height: 20px;
-  text-align: center;
   color: #ffffff;
-  text-decoration: none;
-  text-transform: capitalize;
 }
