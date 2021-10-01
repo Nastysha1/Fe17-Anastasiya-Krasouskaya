@@ -1,0 +1,88 @@
+.social {
+  width: 100%;
+  background-color: #f8efef;
+}
+.social-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 14px 0 17px 0;
+  margin: 0 -15px;
+}
+.social-media {
+  display: flex;
+  flex-direction: column;
+  width: 365px;
+  margin: 0 15px;
+}
+.social-title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+  color: #333333;
+  padding-bottom: 14px;
+}
+.social-desc {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+
+  color: #86878b;
+}
+.social-icons {
+  display: flex;
+  align-items: center;
+  margin: 0 15px;
+}
+.social-list {
+  display: flex;
+  flex-direction: row;
+}
+.social-item {
+  font-size: 42px;
+  margin-left: 60px;
+}
+.social-icon:first-child {
+  margin-left: 0;
+}
+.social-link {
+  color: rgb(156, 153, 153);
+}
+.fab {
+  color: silver;
+}
+.fa-facebook-square:hover {
+  color: rgb(73, 117, 158);
+  transform: scale(1.3);
+}
+.fa-twitter-square:hover {
+  color: rgb(100, 193, 236);
+  transform: scale(1.3);
+}
+.fa-google-plus-square:hover {
+  color: rgb(92, 92, 92);
+  transform: scale(1.3);
+}
+.fa-pinterest-square:hover {
+  color: rgb(204, 93, 108);
+  transform: scale(1.3);
+}
+.fa-instagram-square:hover {
+  color: rgb(170, 88, 170);
+  transform: scale(1.3);
+}
+.fa-youtube-square:hover {
+  color: red;
+  transform: scale(1.3);
+}
+.fa-twitch:hover {
+  color: rgb(196, 24, 196);
+  transform: scale(1.3);
+}

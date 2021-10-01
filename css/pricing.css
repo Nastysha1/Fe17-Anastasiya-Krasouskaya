@@ -7,7 +7,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin: 63px -15px 0;
+  margin: 0 -15px;
 }
 
 .pricing-item {
@@ -16,7 +16,7 @@
   font-size: 14px;
   line-height: 19px;
   color: #86878b;
-  margin: 0 0 1px 0;
+  margin: 0 15px 1px;
 
   display: flex;
   justify-content: center;
@@ -26,6 +26,16 @@
 
   height: 40px;
   width: 340px;
+  box-shadow: 10px 10px 10px 1px grey;
+  cursor: pointer;
+}
+.pricing-item:hover {
+  transform: translateY(-10%);
+  transition-duration: 1s;
+}
+
+.pricing-item:last-child {
+  margin-bottom: 0px;
 }
 .pricing-name {
   font-weight: 700;
@@ -36,6 +46,11 @@
   background: #333333;
 
   height: 50px;
+}
+.pricing-name:hover {
+  transform: translateY(5%);
+  background-color: orange;
+  color: #333333;
 }
 
 .pricing-price {
@@ -49,6 +64,11 @@
 
   height: 100px;
 }
+.pricing-price:hover {
+  transform: rotate(3deg);
+  background-color: orange;
+  color: #333333;
+}
 
 .pricing-desc {
   font-weight: 600;
@@ -60,12 +80,8 @@
 
   height: 50px;
 }
-.orange:active {
-  background-color: orangered;
-}
-.orange {
-  cursor: pointer;
-}
-.pricing-item:last-child {
-  padding: 0px;
+.pricing-desc:hover {
+  background-color: orange;
+  transform: scale(1.2);
+  color: #333333;
 }

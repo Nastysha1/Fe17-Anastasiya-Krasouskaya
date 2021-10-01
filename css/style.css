@@ -1,18 +1,26 @@
+@import url(./titles.css);
 @import url(./header.css);
 @import url(./awesome.css);
 @import url(./pricing.css);
 @import url(./review.css);
 @import url(./axure.css);
+@import url(./social.css);
+@import url(./footer.css);
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css");
 
 html {
   font-family: "Open Sans", sans-serif;
   font-family: "Raleway", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   list-style: none;
+  text-decoration: none;
 }
 .container {
   max-width: 1170px;
