@@ -1,5 +1,5 @@
 .review {
-  padding: 80px 0 119px 0;
+  padding: 50px 0 119px 0;
   width: 100%;
 }
 .review-wrapper {
@@ -12,39 +12,18 @@
 }
 
 .review-item {
-  width: 298px;
+  width: 30.333%;
   margin: 0 15px;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 .review-text {
   position: relative;
-  box-shadow: 10px 10px 10px 1px grey;
-  border-radius: 5%;
-  background: #e2e2e2;
-  border-radius: 7px;
-}
-.review-text:hover {
-  background-color: orange;
-  transform: rotate(1deg);
-}
-.review-text::after {
-  content: "";
-  position: absolute;
+  box-shadow: 1px 1px 10px grey;
 
-  width: 0;
-  height: 0;
-  border-left: 17px solid transparent;
-  border-right: 17px solid transparent;
-  border-top: 17px solid #e2e2e2;
-  top: 100%;
-  left: 39px;
-}
-.review-text:hover:after {
-  background-color: orange;
-  transform: rotate(1deg);
-}
-.review-text p {
+  background: #e2e2e2;
+  border-radius: 10px;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 14px;
@@ -52,7 +31,21 @@
   display: flex;
   text-align: center;
   align-items: center;
-  padding: 9px 22px 6px 23px;
+  padding: 9px 22px;
+  margin-bottom: 22px;
+}
+
+.review-text::after {
+  content: "";
+  position: absolute;
+
+  width: 0;
+  height: 0;
+  border-left: 16px solid transparent;
+  border-right: 16px solid transparent;
+  border-top: 16px solid #e2e2e2;
+  top: 100%;
+  left: 15%;
 }
 .review-photo {
   width: 100%;
@@ -60,13 +53,12 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  margin-top: 22px;
 }
 .photo {
-  width: 70px;
-  height: 70px;
   border-radius: 50%;
   overflow: hidden;
+  width: 70px;
+  height: 70px;
 }
 
 .review-initials {

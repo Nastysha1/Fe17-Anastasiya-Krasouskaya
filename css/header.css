@@ -26,7 +26,7 @@
 
 h2.header-logo::after {
   content: "it";
-  color: rgb(207, 97, 115);
+  color: #ec7979;
   font-family: "Raleway", sans-serif;
   font-size: 30px;
   line-height: 35px;
