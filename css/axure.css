@@ -52,18 +52,25 @@
   color: rgba(255, 255, 255, 0.8);
   margin: 0 auto 57px;
 }
-.axure-download {
-  border: 1px solid white;
-  width: 135px;
-  padding: 11px 0;
-  margin: 0 auto;
-  cursor: pointer;
-  text-align: center;
-}
 .axure-link {
-  width: 100%;
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
-  font-size: 15px;
+  font-size: 18px;
+  line-height: 25px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  padding: 15px 0;
+  border: 1px solid #ffffff;
+  width: 40%;
+  margin: auto;
+}
+.axure-link:hover {
+  color: #ec7979;
+  border: 1px solid #ec7979;
+}
+.axure-link:active {
+  background: #ab4949;
+  border: 2px solid #ab4949;
   color: #ffffff;
 }

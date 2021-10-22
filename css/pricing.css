@@ -9,7 +9,12 @@
   justify-content: space-around;
   margin: 0 -15px;
 }
-
+.pricing-items {
+  width: 33.333%;
+}
+.pricing-items:hover {
+  transform: translateY(-20px);
+}
 .pricing-item {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
@@ -24,18 +29,13 @@
 
   background: #ffffff;
 
-  height: 40px;
-  width: 340px;
-  box-shadow: 10px 10px 10px 1px grey;
+  box-shadow: 0.625rem 0.625rem 0.625rem 0.0625rem grey;
   cursor: pointer;
-}
-.pricing-item:hover {
-  transform: translateY(-10%);
-  transition-duration: 1s;
+  padding: 15px;
 }
 
 .pricing-item:last-child {
-  margin-bottom: 0px;
+  margin-bottom: 0rem;
 }
 .pricing-name {
   font-weight: 700;
@@ -43,14 +43,8 @@
   line-height: 27px;
   color: #ffffff;
 
+  padding: 13px;
   background: #333333;
-
-  height: 50px;
-}
-.pricing-name:hover {
-  transform: translateY(5%);
-  background-color: orange;
-  color: #333333;
 }
 
 .pricing-price {
@@ -62,12 +56,7 @@
 
   background: #333333;
 
-  height: 100px;
-}
-.pricing-price:hover {
-  transform: rotate(3deg);
-  background-color: orange;
-  color: #333333;
+  padding: 29px;
 }
 
 .pricing-desc {
@@ -78,10 +67,15 @@
 
   background: #333333;
 
-  height: 50px;
+  padding: 15px;
 }
 .pricing-desc:hover {
   background-color: orange;
-  transform: scale(1.2);
+  transform: scale(1.02);
   color: #333333;
+}
+@media (min-width: 1023px) and (max-width: 1366px) {
+  .pricing-wrapper {
+    flex-wrap: nowrap;
+  }
 }
